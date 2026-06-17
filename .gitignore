@@ -1,0 +1,16 @@
+# Environments
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Data and Artifacts (Too large for GitHub)
+candidates.jsonl
+artifacts/faiss_index.bin
+artifacts/candidate_ids.pkl
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+__pyrefly_virtual__/
