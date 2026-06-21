@@ -1,8 +1,8 @@
-# torch must be installed FIRST via the CPU-only wheel (see README below)
-# pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
-torch==2.4.1
-faiss-cpu>=1.7.4
-sentence-transformers==2.7.0
 pandas>=2.0.0
 numpy>=1.24.0
+sentence-transformers>=2.6.0
+faiss-cpu>=1.7.0
 rapidfuzz>=3.0.0
+python-dateutil>=2.8.0
+tqdm>=4.0.0
+python-docx>=1.0.0

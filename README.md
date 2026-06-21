@@ -51,13 +51,13 @@ pip install -r requirements.txt
 ```bash
 python precompute.py
 ```
-*This generates `artifacts/faiss_index.bin` and `artifacts/candidate_ids.pkl`.*
+*This generates `candidate_embeddings.npy`, `candidates.index`, `candidate_id_order.pkl`, and `candidates_parsed.pkl`.*
 
 ### 3. Execute the Ranking Pipeline (Phase 2)
 ```bash
-python rank.py
+python rank.py --candidates candidates.jsonl --jd job_description.txt
 ```
-*This generates the final output at `results/top100_candidates.csv`.*
+*This generates the final output at `top100.csv` and `top100.json`.*
 
 ## 📋 Dependencies
 - `sentence-transformers`
