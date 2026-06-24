@@ -41,6 +41,11 @@ def parse_candidates(jsonl_path: str) -> pd.DataFrame:
         
         sum_career_months = sum([float(j.get("duration_months") or 0) for j in career if isinstance(j, dict)])
         expert_skills_under_6m = sum(1 for s in skill_list if str(s.get("proficiency", "")).lower() in ["expert", "advanced"] and float(s.get("duration_months") or 0) < 6)
+
+        # Career history arrays — used by consulting-firm filter & tenure-velocity check
+        career_companies = [j.get("company", "").lower().strip() for j in career if isinstance(j, dict)]
+        career_titles    = [j.get("title",   "").lower().strip() for j in career if isinstance(j, dict)]
+        n_unique_cos     = max(1, len(set(c for c in career_companies if c)))
         
 
         try:
@@ -64,7 +69,7 @@ def parse_candidates(jsonl_path: str) -> pd.DataFrame:
         
         record = {
             "candidate_id": c.get("candidate_id") or c.get("id", "Unknown"),
-            "years_of_experience": float(exp_yoe),
+            "years_of_experience": exp_yoe,
             "preferred_work_mode": prof.get("preferred_work_mode", "remote").lower(),
             "expected_salary_min_lpa": float(salary_min),
             "expected_salary_max_lpa": float(salary_max),
@@ -81,11 +86,15 @@ def parse_candidates(jsonl_path: str) -> pd.DataFrame:
             "saved_by_recruiters_30d": float(signals.get("saved_by_recruiters_30d") or 0),
             "profile_completeness_score": float(signals.get("profile_completeness_score") or 50),
             "notice_period_days": int(signals.get("notice_period_days") or 30),
+            "recruiter_response_rate": float(signals.get("recruiter_response_rate") or 0.5),
             "career_text_blob": career_text_blob,
             "current_title": prof.get("current_title", ""),
             "current_company": prof.get("current_company", ""),
             "sum_career_months": sum_career_months,
-            "expert_skills_under_6m": expert_skills_under_6m
+            "expert_skills_under_6m": expert_skills_under_6m,
+            "career_companies": career_companies,   # list[str] — all employer names, lowercased
+            "career_titles":    career_titles,      # list[str] — all role titles, lowercased
+            "n_unique_companies": n_unique_cos,     # for tenure-velocity calc
         }
         records.append(record)
     return pd.DataFrame(records)
