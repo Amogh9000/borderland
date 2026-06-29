@@ -1,0 +1,66 @@
+# Redrob Hackathon — Submission Metadata
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "Borderland Survivors"
+
+primary_contact:
+  name: "Amogh Manjunath"
+  email: "amoghm2819@gmail.com"
+  phone: "+91-9148635928"
+
+team_members:
+  - name: "Amoggh Bharadwaj"
+    email: "amogghn8055@gmail.com"
+  - name: "Sai Prashanth"
+    email: "prashanthsai152@gmail.com"
+  - name: "Shakthi Jashwanth CH"
+    email: "shakthi.jashwanth@gmail.com"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/amogh/redrob-ranking-engine"
+
+sandbox_link: "https://redrob-ranking-antigravity.streamlit.app"
+
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --jd ./job_description.txt --output ./top100.csv"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Windows Desktop"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: true
+  pre_computation_time_minutes: 2
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Gemini"
+
+ai_usage_summary: |
+  Used Gemini as an agentic pair-programmer for architecture design, refactoring the ranking pipeline, adding honeypot gates, and building the Streamlit UI. No candidate data was fed to the LLM directly.
+
+# ============================================================================
+# Approach summary (optional but recommended)
+# ============================================================================
+methodology_summary: |
+  High-performance, offline candidate ranking system. Uses precomputed sentence-transformer embeddings (all-MiniLM-L6-v2) for FAISS semantic retrieval against the JD. Implements a multi-layered rule-based scoring algorithm featuring strict non-linear penalties for out-of-bracket experience and high notice periods. Includes rigorous honeypot detection to eliminate keyword stuffers, passive candidates, and purely IT services profiles. Runtime executes entirely on CPU well under the 5-minute threshold.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
