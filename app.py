@@ -152,6 +152,7 @@ if uploaded_file is not None:
     content = uploaded_file.getvalue().decode("utf-8").strip()
     
     is_json_array = False
+    lines = []
     try:
         parsed_json = json.loads(content)
         if isinstance(parsed_json, list):
