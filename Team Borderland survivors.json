@@ -1,0 +1,602 @@
+[
+  {
+    "candidate_id":"CAND_0002025",
+    "rank":1,
+    "score":55.0506106148,
+    "reasoning":"Profile text aligns 56% with the JD. Matches 5\/11 required skills: sentence-transformers, faiss, pinecone, weaviate. 5.9 yrs as Senior AI Engineer at Apple. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0018499",
+    "rank":2,
+    "score":53.4115616869,
+    "reasoning":"Profile text aligns 55% with the JD. Matches 4\/11 required skills: embeddings, pinecone, weaviate, milvus. 7.2 yrs as Senior Machine Learning Engineer at Zomato. Active & open to work. Notice: 15d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0086022",
+    "rank":3,
+    "score":51.9066380708,
+    "reasoning":"Profile text aligns 56% with the JD. Matches 3\/11 required skills: embeddings, sentence-transformers, pinecone. 5.3 yrs as Senior Applied Scientist at Sarvam AI. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0046064",
+    "rank":4,
+    "score":51.6948561577,
+    "reasoning":"Profile text aligns 59% with the JD. Matches 2\/11 required skills: pinecone, python. 8.9 yrs as Senior NLP Engineer at Salesforce. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0011687",
+    "rank":5,
+    "score":50.4654132375,
+    "reasoning":"Profile text aligns 54% with the JD. Matches 3\/11 required skills: embeddings, faiss, weaviate. 7.8 yrs as Senior NLP Engineer at Niramai. Active & open to work. Notice: 15d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0027691",
+    "rank":6,
+    "score":50.4137499998,
+    "reasoning":"Profile text aligns 49% with the JD. Matches 3\/11 required skills: embeddings, weaviate, python. 6.5 yrs as NLP Engineer at Haptik. Active & open to work. Notice: 15d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0037944",
+    "rank":7,
+    "score":49.083255228,
+    "reasoning":"Profile text aligns 44% with the JD. Matches 3\/11 required skills: embeddings, sentence-transformers, python. 4.9 yrs as Senior Data Scientist at Vedantu. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 4.9 yrs is 0.1 yrs below 5-yr floor \u2192 -1.5 pt YoE penalty."
+  },
+  {
+    "candidate_id":"CAND_0052682",
+    "rank":8,
+    "score":48.6578957161,
+    "reasoning":"Profile text aligns 42% with the JD. Matches 3\/11 required skills: embeddings, faiss, python. 6.6 yrs as NLP Engineer at Aganitha. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0066999",
+    "rank":9,
+    "score":47.7931104004,
+    "reasoning":"Profile text aligns 42% with the JD. Matches 3\/11 required skills: embeddings, faiss, pinecone. 5.9 yrs as Recommendation Systems Engineer at Microsoft. Active & open to work. Notice: 15d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0079387",
+    "rank":10,
+    "score":47.7555302113,
+    "reasoning":"Profile text aligns 45% with the JD. Matches 2\/11 required skills: sentence-transformers, python. 6.9 yrs as AI Engineer at Microsoft. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0005311",
+    "rank":11,
+    "score":47.3487161022,
+    "reasoning":"Profile text aligns 49% with the JD. Matches 1\/11 required skills: qdrant. 5.7 yrs as AI Research Engineer at Aganitha. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0062561",
+    "rank":12,
+    "score":47.2693195731,
+    "reasoning":"Profile text aligns 50% with the JD. Matches 1\/11 required skills: weaviate. 5.9 yrs as ML Engineer at Razorpay. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0093912",
+    "rank":13,
+    "score":46.9233143801,
+    "reasoning":"Profile text aligns 47% with the JD. Matches 2\/11 required skills: embeddings, milvus. 5.3 yrs as Senior Data Scientist at Razorpay. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0052328",
+    "rank":14,
+    "score":46.833754562,
+    "reasoning":"Profile text aligns 43% with the JD. Matches 2\/11 required skills: sentence-transformers, python. 6.5 yrs as Recommendation Systems Engineer at Amazon. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0037566",
+    "rank":15,
+    "score":46.7637164922,
+    "reasoning":"Profile text aligns 46% with the JD. Matches 1\/11 required skills: pinecone. 6.9 yrs as Machine Learning Engineer at LinkedIn. Active & open to work. Notice: 15d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0099806",
+    "rank":16,
+    "score":46.474161167,
+    "reasoning":"Profile text aligns 45% with the JD. Matches 5\/11 required skills: embeddings, sentence-transformers, faiss, qdrant. 4.6 yrs as AI Engineer at Mad Street Den. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 4.6 yrs is 0.4 yrs below 5-yr floor \u2192 -6.0 pt YoE penalty; low offer acceptance rate."
+  },
+  {
+    "candidate_id":"CAND_0062247",
+    "rank":17,
+    "score":46.2703041012,
+    "reasoning":"Profile text aligns 46% with the JD. Matches 2\/11 required skills: pinecone, qdrant. 7.3 yrs as AI Engineer at Google. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0007009",
+    "rank":18,
+    "score":46.1148798288,
+    "reasoning":"Profile text aligns 43% with the JD. Matches 4\/11 required skills: embeddings, sentence-transformers, weaviate, python. 7.9 yrs as Recommendation Systems Engineer at Wysa. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0081846",
+    "rank":19,
+    "score":46.061591908,
+    "reasoning":"Profile text aligns 57% with the JD. Matches 3\/11 required skills: embeddings, qdrant, python. 6.7 yrs as Lead AI Engineer at Razorpay. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0071974",
+    "rank":20,
+    "score":45.2493365266,
+    "reasoning":"Profile text aligns 57% with the JD. Matches 5\/11 required skills: embeddings, sentence-transformers, pinecone, qdrant. 7.8 yrs as Senior AI Engineer at Netflix. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0051292",
+    "rank":21,
+    "score":45.0878009437,
+    "reasoning":"Profile text aligns 45% with the JD. Matches 1\/11 required skills: faiss. 5.2 yrs as Applied ML Engineer at Freshworks. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0045141",
+    "rank":22,
+    "score":45.0009992067,
+    "reasoning":"Profile text aligns 41% with the JD. Matches 3\/11 required skills: faiss, pinecone, milvus. 5.3 yrs as Data Scientist at HCL. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0068932",
+    "rank":23,
+    "score":44.7302243666,
+    "reasoning":"Profile text aligns 45% with the JD. Matches 1\/11 required skills: milvus. 5.2 yrs as ML Engineer at Krutrim. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0041610",
+    "rank":24,
+    "score":44.4629236752,
+    "reasoning":"Profile text aligns 42% with the JD. Matches 1\/11 required skills: embeddings. 6.7 yrs as Recommendation Systems Engineer at Zoho. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0005509",
+    "rank":25,
+    "score":44.4076718948,
+    "reasoning":"Profile text aligns 42% with the JD. Matches 2\/11 required skills: qdrant, python. 6.0 yrs as Data Scientist at Ola. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0096104",
+    "rank":26,
+    "score":44.3152387458,
+    "reasoning":"Profile text aligns 49% with the JD. Matches 1\/11 required skills: pinecone. 7.0 yrs as AI Specialist at Yellow.ai. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0026942",
+    "rank":27,
+    "score":44.2123697352,
+    "reasoning":"Profile text aligns 41% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 6.0 yrs as Junior ML Engineer at Verloop.io. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved."
+  },
+  {
+    "candidate_id":"CAND_0082262",
+    "rank":28,
+    "score":44.1952152739,
+    "reasoning":"Profile text aligns 53% with the JD. Matches 2\/11 required skills: weaviate, python. 5.9 yrs as Senior Software Engineer (ML) at Wipro. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0058688",
+    "rank":29,
+    "score":43.5967590122,
+    "reasoning":"Profile text aligns 50% with the JD. Matches 2\/11 required skills: embeddings, milvus. 6.7 yrs as AI Engineer at Vedantu. Active & open to work. Notice: 15d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0009024",
+    "rank":30,
+    "score":43.5071740705,
+    "reasoning":"Profile text aligns 43% with the JD. Matches 2\/11 required skills: faiss, qdrant. 5.2 yrs as Search Engineer at Google. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0055905",
+    "rank":31,
+    "score":43.0103005207,
+    "reasoning":"Profile text aligns 56% with the JD. Matches 2\/11 required skills: embeddings, python. 8.1 yrs as Senior Machine Learning Engineer at Flipkart. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0025640",
+    "rank":32,
+    "score":42.7481429993,
+    "reasoning":"Profile text aligns 51% with the JD. Matches 1\/11 required skills: faiss. 5.6 yrs as AI Research Engineer at HCL. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0043676",
+    "rank":33,
+    "score":42.6383349769,
+    "reasoning":"Profile text aligns 47% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 6.1 yrs as Senior Software Engineer (ML) at Observe.AI. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved."
+  },
+  {
+    "candidate_id":"CAND_0008297",
+    "rank":34,
+    "score":42.630593808,
+    "reasoning":"Profile text aligns 43% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 5.3 yrs as Computer Vision Engineer at Rephrase.ai. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved; low offer acceptance rate."
+  },
+  {
+    "candidate_id":"CAND_0052195",
+    "rank":35,
+    "score":42.4340933507,
+    "reasoning":"Profile text aligns 36% with the JD. Matches 1\/11 required skills: sentence-transformers. 6.3 yrs as Computer Vision Engineer at Sarvam AI. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0020350",
+    "rank":36,
+    "score":42.394759611,
+    "reasoning":"Profile text aligns 48% with the JD. Matches 2\/11 required skills: sentence-transformers, faiss. 5.8 yrs as AI Engineer at Zoho. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0053695",
+    "rank":37,
+    "score":42.0205304152,
+    "reasoning":"Profile text aligns 33% with the JD. Matches 3\/11 required skills: embeddings, sentence-transformers, pinecone. 5.8 yrs as Recommendation Systems Engineer at Meesho. Active & open to work. Notice: 15d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0015493",
+    "rank":38,
+    "score":41.9932233144,
+    "reasoning":"Profile text aligns 40% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 6.4 yrs as Data Scientist at CRED. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved."
+  },
+  {
+    "candidate_id":"CAND_0083879",
+    "rank":39,
+    "score":41.8724593506,
+    "reasoning":"Profile text aligns 48% with the JD. Matches 2\/11 required skills: sentence-transformers, milvus. 7.1 yrs as Machine Learning Engineer at Ola. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0043860",
+    "rank":40,
+    "score":41.752809841,
+    "reasoning":"Profile text aligns 44% with the JD. Matches 1\/11 required skills: qdrant. 6.1 yrs as Junior ML Engineer at Aganitha. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0036184",
+    "rank":41,
+    "score":41.6762104499,
+    "reasoning":"Profile text aligns 37% with the JD. Matches 4\/11 required skills: embeddings, sentence-transformers, faiss, pinecone. 6.0 yrs as Recommendation Systems Engineer at CRED. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0061257",
+    "rank":42,
+    "score":41.5112613467,
+    "reasoning":"Profile text aligns 50% with the JD. Matches 1\/11 required skills: python. 8.0 yrs as Staff Machine Learning Engineer at LinkedIn. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0017093",
+    "rank":43,
+    "score":41.4450833519,
+    "reasoning":"Profile text aligns 37% with the JD. Matches 1\/11 required skills: embeddings. 5.9 yrs as ML Engineer at Zoho. Active & open to work. Notice: 30d (\u00d71.00). Concerns: low offer acceptance rate."
+  },
+  {
+    "candidate_id":"CAND_0053605",
+    "rank":44,
+    "score":40.9775593297,
+    "reasoning":"Profile text aligns 48% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 6.9 yrs as Senior Software Engineer (ML) at Verloop.io. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved."
+  },
+  {
+    "candidate_id":"CAND_0078492",
+    "rank":45,
+    "score":40.818298072,
+    "reasoning":"Profile text aligns 42% with the JD. Matches 2\/11 required skills: faiss, qdrant. 5.1 yrs as Recommendation Systems Engineer at Verloop.io. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0003841",
+    "rank":46,
+    "score":40.7204537959,
+    "reasoning":"Profile text aligns 43% with the JD. Matches 2\/11 required skills: sentence-transformers, pinecone. 5.0 yrs as ML Engineer at Tech Mahindra. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0040117",
+    "rank":47,
+    "score":40.6924409552,
+    "reasoning":"Profile text aligns 39% with the JD. Matches 2\/11 required skills: embeddings, faiss. 6.5 yrs as Recommendation Systems Engineer at PhonePe. Active & open to work. Notice: 15d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0015097",
+    "rank":48,
+    "score":40.6913106012,
+    "reasoning":"Profile text aligns 48% with the JD. Matches 1\/11 required skills: python. 6.0 yrs as Senior Software Engineer (ML) at Zoho. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0019288",
+    "rank":49,
+    "score":40.6836376854,
+    "reasoning":"Profile text aligns 49% with the JD. Matches 1\/11 required skills: faiss. 5.7 yrs as AI Research Engineer at Paytm. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0072660",
+    "rank":50,
+    "score":40.6827665418,
+    "reasoning":"Profile text aligns 47% with the JD. Matches 2\/11 required skills: faiss, python. 7.1 yrs as Machine Learning Engineer at Unacademy. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0097176",
+    "rank":51,
+    "score":40.6331670815,
+    "reasoning":"Profile text aligns 43% with the JD. Matches 1\/11 required skills: faiss. 5.9 yrs as ML Engineer at TCS. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0037160",
+    "rank":52,
+    "score":40.6269651665,
+    "reasoning":"Profile text aligns 41% with the JD. Matches 2\/11 required skills: embeddings, weaviate. 6.0 yrs as Data Scientist at Haptik. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0064256",
+    "rank":53,
+    "score":40.4924080875,
+    "reasoning":"Profile text aligns 45% with the JD. Matches 2\/11 required skills: embeddings, python. 6.4 yrs as Junior ML Engineer at BYJU'S. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0074342",
+    "rank":54,
+    "score":40.4447683639,
+    "reasoning":"Profile text aligns 50% with the JD. Matches 1\/11 required skills: sentence-transformers. 5.7 yrs as Data Scientist at Zoho. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0050765",
+    "rank":55,
+    "score":40.2003345283,
+    "reasoning":"Profile text aligns 46% with the JD. Matches 2\/11 required skills: embeddings, pinecone. 4.9 yrs as AI Specialist at Swiggy. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 4.9 yrs is 0.1 yrs below 5-yr floor \u2192 -1.5 pt YoE penalty."
+  },
+  {
+    "candidate_id":"CAND_0040887",
+    "rank":56,
+    "score":40.1874281678,
+    "reasoning":"Profile text aligns 46% with the JD. Matches 3\/11 required skills: faiss, milvus, python. 4.7 yrs as Machine Learning Engineer at Netflix. Active & open to work. Notice: 15d (\u00d71.00). Concerns: HIGH: 4.7 yrs is 0.3 yrs below 5-yr floor \u2192 -4.5 pt YoE penalty."
+  },
+  {
+    "candidate_id":"CAND_0037980",
+    "rank":57,
+    "score":40.1274027025,
+    "reasoning":"Profile text aligns 48% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 9.0 yrs as Senior Applied Scientist at Niramai. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved."
+  },
+  {
+    "candidate_id":"CAND_0014234",
+    "rank":58,
+    "score":39.9150058248,
+    "reasoning":"Profile text aligns 47% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 5.4 yrs as Junior ML Engineer at Tech Mahindra. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved; low offer acceptance rate."
+  },
+  {
+    "candidate_id":"CAND_0009200",
+    "rank":59,
+    "score":39.8976118762,
+    "reasoning":"Profile text aligns 56% with the JD. Matches 1\/11 required skills: sentence-transformers. 5.7 yrs as AI Specialist at HCL. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0069638",
+    "rank":60,
+    "score":39.8794689764,
+    "reasoning":"Profile text aligns 43% with the JD. Matches 1\/11 required skills: pinecone. 6.2 yrs as Computer Vision Engineer at Swiggy. Active & open to work. Notice: 30d (\u00d71.00). Concerns: low offer acceptance rate."
+  },
+  {
+    "candidate_id":"CAND_0048558",
+    "rank":61,
+    "score":39.8178955326,
+    "reasoning":"Profile text aligns 46% with the JD. Matches 1\/11 required skills: qdrant. 6.7 yrs as Data Scientist at Rephrase.ai. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0065878",
+    "rank":62,
+    "score":39.8086374621,
+    "reasoning":"Profile text aligns 43% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 7.8 yrs as Senior Data Scientist at Niramai. Active & open to work. Notice: 15d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved."
+  },
+  {
+    "candidate_id":"CAND_0080051",
+    "rank":63,
+    "score":39.7272393309,
+    "reasoning":"Profile text aligns 47% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 5.2 yrs as Data Scientist at Niramai. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved."
+  },
+  {
+    "candidate_id":"CAND_0050454",
+    "rank":64,
+    "score":39.677179193,
+    "reasoning":"Profile text aligns 46% with the JD. Matches 2\/11 required skills: faiss, qdrant. 6.8 yrs as AI Engineer at Rephrase.ai. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0098846",
+    "rank":65,
+    "score":39.5864660787,
+    "reasoning":"Profile text aligns 52% with the JD. Matches 1\/11 required skills: qdrant. 7.6 yrs as AI Engineer at upGrad. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0019880",
+    "rank":66,
+    "score":39.4119007471,
+    "reasoning":"Profile text aligns 48% with the JD. Matches 1\/11 required skills: embeddings. 5.7 yrs as AI Specialist at Aganitha. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0076587",
+    "rank":67,
+    "score":39.3038454528,
+    "reasoning":"Profile text aligns 48% with the JD. Matches 2\/11 required skills: embeddings, weaviate. 4.9 yrs as AI Specialist at Genpact AI. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 4.9 yrs is 0.1 yrs below 5-yr floor \u2192 -1.5 pt YoE penalty; low offer acceptance rate."
+  },
+  {
+    "candidate_id":"CAND_0068811",
+    "rank":68,
+    "score":39.1164584392,
+    "reasoning":"Profile text aligns 45% with the JD. Matches 4\/11 required skills: embeddings, pinecone, qdrant, weaviate. 8.0 yrs as Applied ML Engineer at Freshworks. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0063622",
+    "rank":69,
+    "score":38.953650739,
+    "reasoning":"Profile text aligns 34% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 5.2 yrs as Computer Vision Engineer at Niramai. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved."
+  },
+  {
+    "candidate_id":"CAND_0071939",
+    "rank":70,
+    "score":38.9350133191,
+    "reasoning":"Profile text aligns 33% with the JD. Matches 2\/11 required skills: embeddings, qdrant. 6.4 yrs as Data Scientist at Krutrim. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0033445",
+    "rank":71,
+    "score":38.8076361017,
+    "reasoning":"Profile text aligns 35% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 6.8 yrs as ML Engineer at Vedantu. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved."
+  },
+  {
+    "candidate_id":"CAND_0032216",
+    "rank":72,
+    "score":38.6399513001,
+    "reasoning":"Profile text aligns 40% with the JD. Matches 2\/11 required skills: sentence-transformers, qdrant. 6.1 yrs as ML Engineer at upGrad. Active & open to work. Notice: 30d (\u00d71.00). Concerns: low GitHub activity (14.2\/100)."
+  },
+  {
+    "candidate_id":"CAND_0066690",
+    "rank":73,
+    "score":38.637416867,
+    "reasoning":"Profile text aligns 46% with the JD. Matches 2\/11 required skills: sentence-transformers, pinecone. 4.8 yrs as ML Engineer at Freshworks. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 4.8 yrs is 0.2 yrs below 5-yr floor \u2192 -3.0 pt YoE penalty."
+  },
+  {
+    "candidate_id":"CAND_0065786",
+    "rank":74,
+    "score":38.6290019304,
+    "reasoning":"Profile text aligns 44% with the JD. Matches 2\/11 required skills: pinecone, qdrant. 4.9 yrs as AI Specialist at Swiggy. Active & open to work. Notice: 45d (\u00d70.80). Concerns: HIGH: 4.9 yrs is 0.1 yrs below 5-yr floor \u2192 -1.5 pt YoE penalty; MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0064888",
+    "rank":75,
+    "score":38.5835703612,
+    "reasoning":"Profile text aligns 37% with the JD. Matches 1\/11 required skills: embeddings. 5.8 yrs as ML Engineer at Verloop.io. Active & open to work. Notice: 30d (\u00d71.00). Concerns: low GitHub activity (17.4\/100); low offer acceptance rate."
+  },
+  {
+    "candidate_id":"CAND_0015967",
+    "rank":76,
+    "score":38.5809675464,
+    "reasoning":"Profile text aligns 46% with the JD. Matches 2\/11 required skills: embeddings, pinecone. 5.4 yrs as Senior Software Engineer (ML) at Razorpay. Active & open to work. Notice: 30d (\u00d71.00). Concerns: low offer acceptance rate."
+  },
+  {
+    "candidate_id":"CAND_0065195",
+    "rank":77,
+    "score":38.4833828979,
+    "reasoning":"Profile text aligns 48% with the JD. Matches 1\/11 required skills: qdrant. 5.1 yrs as Search Engineer at CRED. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0074098",
+    "rank":78,
+    "score":38.1819634435,
+    "reasoning":"Profile text aligns 41% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 4.9 yrs as Data Scientist at Observe.AI. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved; HIGH: 4.9 yrs is 0.1 yrs below 5-yr floor \u2192 -1.5 pt YoE penalty; low offer acceptance rate."
+  },
+  {
+    "candidate_id":"CAND_0012888",
+    "rank":79,
+    "score":38.1524699292,
+    "reasoning":"Profile text aligns 42% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 6.4 yrs as Junior ML Engineer at Genpact AI. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved."
+  },
+  {
+    "candidate_id":"CAND_0010685",
+    "rank":80,
+    "score":38.1018163918,
+    "reasoning":"Profile text aligns 44% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 6.7 yrs as NLP Engineer at Rephrase.ai. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved."
+  },
+  {
+    "candidate_id":"CAND_0077296",
+    "rank":81,
+    "score":37.9673965817,
+    "reasoning":"Profile text aligns 44% with the JD. Matches 1\/11 required skills: weaviate. 5.8 yrs as Computer Vision Engineer at Ola. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0081852",
+    "rank":82,
+    "score":37.9486320639,
+    "reasoning":"Profile text aligns 48% with the JD. Matches 2\/11 required skills: weaviate, milvus. 5.9 yrs as Senior Data Scientist at Mad Street Den. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0033179",
+    "rank":83,
+    "score":37.8777195973,
+    "reasoning":"Profile text aligns 46% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 6.9 yrs as AI Research Engineer at Wipro. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved."
+  },
+  {
+    "candidate_id":"CAND_0082086",
+    "rank":84,
+    "score":37.8467331631,
+    "reasoning":"Profile text aligns 43% with the JD. Matches 3\/11 required skills: faiss, pinecone, milvus. 6.0 yrs as Senior Software Engineer (ML) at Razorpay. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier; low offer acceptance rate."
+  },
+  {
+    "candidate_id":"CAND_0070808",
+    "rank":85,
+    "score":37.7516579262,
+    "reasoning":"Profile text aligns 50% with the JD. Matches 1\/11 required skills: pinecone. 6.8 yrs as Junior ML Engineer at HCL. Active & open to work. Notice: 30d (\u00d71.00). Concerns: low offer acceptance rate."
+  },
+  {
+    "candidate_id":"CAND_0008295",
+    "rank":86,
+    "score":37.6376096499,
+    "reasoning":"Profile text aligns 46% with the JD. Matches 2\/11 required skills: weaviate, python. 6.5 yrs as AI Research Engineer at Razorpay. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0051004",
+    "rank":87,
+    "score":37.5828250512,
+    "reasoning":"Profile text aligns 46% with the JD. Matches 2\/11 required skills: embeddings, qdrant. 4.7 yrs as Senior Data Scientist at CRED. Active & open to work. Notice: 15d (\u00d71.00). Concerns: HIGH: 4.7 yrs is 0.3 yrs below 5-yr floor \u2192 -4.5 pt YoE penalty."
+  },
+  {
+    "candidate_id":"CAND_0003791",
+    "rank":88,
+    "score":37.58178622,
+    "reasoning":"Profile text aligns 48% with the JD. Matches 2\/11 required skills: weaviate, python. 6.6 yrs as ML Engineer at Meesho. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0014063",
+    "rank":89,
+    "score":37.5405353632,
+    "reasoning":"Profile text aligns 50% with the JD. Matches 1\/11 required skills: faiss. 5.4 yrs as AI Specialist at Sarvam AI. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0098217",
+    "rank":90,
+    "score":37.5115902502,
+    "reasoning":"Profile text aligns 40% with the JD. Matches 2\/11 required skills: faiss, pinecone. 6.4 yrs as ML Engineer at Glance. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0049831",
+    "rank":91,
+    "score":37.2205732084,
+    "reasoning":"Profile text aligns 43% with the JD. Matches 1\/11 required skills: embeddings. 5.4 yrs as Computer Vision Engineer at BYJU'S. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0040443",
+    "rank":92,
+    "score":36.8653409644,
+    "reasoning":"Profile text aligns 52% with the JD. Matches 1\/11 required skills: qdrant. 7.2 yrs as Analytics Engineer at upGrad. Active & open to work. Notice: 30d (\u00d71.00)."
+  },
+  {
+    "candidate_id":"CAND_0002120",
+    "rank":93,
+    "score":36.7656992466,
+    "reasoning":"Profile text aligns 47% with the JD. Matches 3\/11 required skills: embeddings, pinecone, qdrant. 6.5 yrs as ML Engineer at HCL. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0064326",
+    "rank":94,
+    "score":36.6108988384,
+    "reasoning":"Profile text aligns 45% with the JD. Matches 3\/11 required skills: weaviate, milvus, python. 7.6 yrs as Search Engineer at Sarvam AI. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  },
+  {
+    "candidate_id":"CAND_0006757",
+    "rank":95,
+    "score":36.5624780796,
+    "reasoning":"Profile text aligns 50% with the JD. Matches 1\/11 required skills: embeddings. 5.4 yrs as Senior Software Engineer at Unacademy. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: Title 'Senior Software Engineer' is adjacent SWE, not core ML\/AI \u2192 jd_fit \u00d70.35."
+  },
+  {
+    "candidate_id":"CAND_0042506",
+    "rank":96,
+    "score":36.5519905211,
+    "reasoning":"Profile text aligns 49% with the JD. Matches 3\/11 required skills: faiss, qdrant, milvus. 4.2 yrs as Search Engineer at Verloop.io. Active & open to work. Notice: 15d (\u00d71.00). Concerns: HIGH: 4.2 yrs is 0.8 yrs below 5-yr floor \u2192 -12.0 pt YoE penalty."
+  },
+  {
+    "candidate_id":"CAND_0020708",
+    "rank":97,
+    "score":36.3275334334,
+    "reasoning":"Profile text aligns 45% with the JD. Matches 3\/11 required skills: sentence-transformers, milvus, python. 4.2 yrs as Search Engineer at PolicyBazaar. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 4.2 yrs is 0.8 yrs below 5-yr floor \u2192 -12.0 pt YoE penalty."
+  },
+  {
+    "candidate_id":"CAND_0084005",
+    "rank":98,
+    "score":36.2868207328,
+    "reasoning":"Profile text aligns 56% with the JD. 0\/11 required skills matched \u2014 jd_fit capped + skill signal halved. 6.1 yrs as Backend Engineer at Pied Piper. Active & open to work. Notice: 30d (\u00d71.00). Concerns: HIGH: 0 required skills & semantic \u226465% \u2192 jd_fit capped + skill halved; HIGH: Title 'Backend Engineer' is adjacent SWE, not core ML\/AI \u2192 jd_fit \u00d70.35."
+  },
+  {
+    "candidate_id":"CAND_0008239",
+    "rank":99,
+    "score":36.2509044766,
+    "reasoning":"Profile text aligns 48% with the JD. Matches 4\/11 required skills: faiss, weaviate, milvus, python. 4.0 yrs as AI Engineer at Apple. Active & open to work. Notice: 15d (\u00d71.00). Concerns: HIGH: 4.0 yrs is 1.0 yrs below 5-yr floor \u2192 -15.0 pt YoE penalty."
+  },
+  {
+    "candidate_id":"CAND_0059795",
+    "rank":100,
+    "score":36.1260375924,
+    "reasoning":"Profile text aligns 54% with the JD. Matches 1\/11 required skills: python. 5.6 yrs as Senior Software Engineer (ML) at Locobuzz. Active & open to work. Notice: 45d (\u00d70.80). Concerns: MODERATE: 45-day notice \u2192 0.80\u00d7 multiplier."
+  }
+]

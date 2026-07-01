@@ -26,7 +26,7 @@ github_repo: "https://github.com/amogh/redrob-ranking-engine"
 
 sandbox_link: "https://borderland.streamlit.app/"
 
-reproduce_command: "python rank.py --candidates ./candidates.jsonl --jd ./job_description.txt --output ./top100.csv"
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --jd ./job_description.txt --output './Team Borderland survivors.csv'"
 
 pre_computation_command: "python precompute.py --candidates ./candidates.jsonl"
 

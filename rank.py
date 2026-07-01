@@ -11,7 +11,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument('--candidates', required=True)
     p.add_argument('--jd',         required=True)
-    p.add_argument('--output',     default='top100.csv')
+    p.add_argument('--output',     default='Team Borderland survivors.csv')
     p.add_argument('--top-k',      type=int, default=100)
     args = p.parse_args()
     
@@ -44,7 +44,9 @@ def main():
         submission_df.to_csv(args.output, index=False)
         json_out = args.output.replace('.csv', '.json')
         submission_df.to_json(json_out, orient='records', indent=2)
-        print(f'Done. Results written to {args.output} and {json_out}')
+        excel_out = args.output.replace('.csv', '.xlsx')
+        submission_df.to_excel(excel_out, index=False)
+        print(f'Done. Results written to {args.output}, {json_out}, and {excel_out}')
     else:
         print("No candidates matched the filters.")
 
