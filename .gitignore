@@ -15,8 +15,9 @@ top100.csv
 top100.json
 results/
 
-# IDE / OS
+# IDE / OS / Web
 .vscode/
 .idea/
 .DS_Store
 __pyrefly_virtual__/
+.streamlit/

@@ -1,23 +1,27 @@
 # Redrob AI Candidate Ranking Pipeline
 
-An enterprise-grade, two-phase candidate ranking system built for the **Redrob AI Hiring Challenge**. This pipeline processes 100,000 candidate profiles using semantic search and multi-factor scoring to output the top 100 candidates in under 5 minutes on CPU-only hardware.
+An enterprise-grade candidate ranking system built for the **Redrob AI Hiring Challenge**. This system has been consolidated into a portable, interactive Streamlit application that processes candidate profiles using semantic search and multi-factor scoring to output the top 100 candidates in under 5 minutes on CPU-only hardware.
 
 ## 🚀 Architecture Overview
 
-The system is split into two phases to adhere to strict latency and hardware constraints (<16GB RAM, <5 minutes runtime):
+The system is designed as a self-contained, high-performance Streamlit application (`app.py`) that adheres to strict latency and hardware constraints (<16GB RAM, <5 minutes runtime):
 
-1. **Phase 1: Offline Precompute (`precompute.py`)**
-   - Parses the raw 100k `candidates.jsonl` dataset.
-   - Generates 384-dimensional semantic embeddings using `all-MiniLM-L6-v2`.
-   - Embeds **career history and descriptions** (explicitly excluding keyword-stuffed skills lists).
-   - Builds an optimized `FAISS IndexFlatIP` binary index.
+1. **Data Parsing**: Streams and parses raw JSON/JSONL candidate data on upload.
+2. **Semantic Embedding**: Generates 384-dimensional semantic embeddings using `all-MiniLM-L6-v2`. Embeds **career history and descriptions** (explicitly excluding keyword-stuffed skills lists).
+3. **Multi-Factor Scoring Engine**: Executes a rigorous evaluation of candidate signals.
+4. **Honeypot Detector**: Filters out fraudulent profiles and keyword-stuffers.
+5. **Interactive UI**: Visualizes the top 100 candidates and generates dynamic reasoning strings. Allows CSV export for the final submission.
 
-2. **Phase 2: Online Ranking (`rank.py`)**
-   - Loads the pre-built FAISS index and performs an ultra-fast nearest-neighbor search for the top 500 semantic matches.
-   - Executes the **Multi-Factor Scoring Engine**.
-   - Filters out fraudulent profiles using the **Honeypot Detector**.
-   - Generates dynamic, 200-character reasoning strings based on actual career evidence.
-   - Exports the `top100_candidates.csv`.
+```mermaid
+graph TD
+    A[Raw Candidates JSONL] --> B(Data Parsing)
+    B --> C(Semantic Embedding)
+    C -->|all-MiniLM-L6-v2| D(Multi-Factor Scoring)
+    D --> E{Honeypot Detector}
+    E -->|Clean Profiles| F(Streamlit UI)
+    E -->|Fraudulent Profiles| G[Rejected]
+    F --> H[Top 100 CSV Export]
+```
 
 ## 🧠 Scoring Logic (Amended Playbook §1)
 
@@ -42,26 +46,25 @@ The pipeline includes a robust set of countermeasures to disqualify "imposter" p
 ### 1. Setup Environment
 ```bash
 python -m venv .venv
-source .venv/Scripts/activate  # (Windows)
+source .venv/Scripts/activate  # (Windows: .venv\Scripts\activate)
 pip install -r requirements.txt
 ```
 
-### 2. Build the FAISS Index (Phase 1)
-*Ensure `candidates.jsonl` is in the project root.*
+### 2. Launch the Streamlit App
 ```bash
-python precompute.py
+streamlit run app.py
 ```
-*This generates `candidate_embeddings.npy`, `candidates.index`, `candidate_id_order.pkl`, and `candidates_parsed.pkl`.*
 
-### 3. Execute the Ranking Pipeline (Phase 2)
-```bash
-python rank.py --candidates candidates.jsonl --jd job_description.txt
-```
-*This generates the final output at `top100.csv` and `top100.json`.*
+### 3. Usage
+1. Open the local Streamlit URL in your browser.
+2. Upload the `candidates.jsonl` or `.json` file through the UI.
+3. Wait for the pipeline to complete (progress bar will update).
+4. Review the top candidates and download the generated `top100.csv` file.
 
 ## 📋 Dependencies
+- `streamlit`
 - `sentence-transformers`
-- `faiss-cpu`
 - `rapidfuzz`
+- `pandas`
 - `numpy`
 - `torch` (CPU only)

@@ -10,6 +10,8 @@ primary_contact:
   phone: "+91-9148635928"
 
 team_members:
+  - name: "Amogh Manjunath"
+    email: "amoghm2819@gmail.com"
   - name: "Amoggh Bharadwaj"
     email: "amogghn8055@gmail.com"
   - name: "Sai Prashanth"
@@ -22,15 +24,24 @@ team_members:
 # ============================================================================
 github_repo: "https://github.com/amogh/redrob-ranking-engine"
 
-sandbox_link: "https://redrob-ranking-antigravity.streamlit.app"
+sandbox_link: "https://borderland.streamlit.app/"
 
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --jd ./job_description.txt --output ./top100.csv"
+
+pre_computation_command: "python precompute.py --candidates ./candidates.jsonl"
+
+pre_computation_note: |
+  precompute.py must be run once before rank.py. It generates candidate_embeddings.npy,
+  candidate_id_order.pkl, candidates_parsed.pkl, and candidates.index. This step has no
+  time limit. Note: You can run precompute.py in a Google Colab notebook using a T5 GPU
+  to accelerate embedding generation and store the embeddings. rank.py loads
+  these artifacts and completes in under 5 minutes on CPU with no network access.
 
 # ============================================================================
 # Compute environment
 # ============================================================================
 compute:
-  platform: "Windows Desktop"
+  platform: "Windows Desktop (precompute) + Modal Cloud (100K embedding run)"
   cpu_cores: 8
   ram_gb: 16
   python_version: "3.11"
@@ -38,22 +49,41 @@ compute:
   uses_gpu_for_inference: false
   has_network_during_ranking: false
   pre_computation_required: true
-  pre_computation_time_minutes: 2
+  pre_computation_time_minutes: 40
+  ranking_step_time_minutes: "<5"
+  embedding_model: "all-MiniLM-L6-v2 (sentence-transformers, CPU, ONNX)"
 
 # ============================================================================
 # AI tools declaration
 # ============================================================================
 ai_tools_used:
+  - "Claude"
   - "Gemini"
 
 ai_usage_summary: |
-  Used Gemini as an agentic pair-programmer for architecture design, refactoring the ranking pipeline, adding honeypot gates, and building the Streamlit UI. No candidate data was fed to the LLM directly.
+  Claude was used for architecture design, scoring formula iteration, bug identification
+  (sentinel value handling for github_activity_score and offer_acceptance_rate), and QA
+  tooling. Gemini was used as an agentic pair-programmer via Cursor for refactoring the
+  ranking pipeline, building honeypot gates, and the Streamlit UI. No candidate data was
+  sent to any external service. All code was reviewed, understood, and owned by the team.
 
 # ============================================================================
-# Approach summary (optional but recommended)
+# Methodology summary
 # ============================================================================
 methodology_summary: |
-  High-performance, offline candidate ranking system. Uses precomputed sentence-transformer embeddings (all-MiniLM-L6-v2) for FAISS semantic retrieval against the JD. Implements a multi-layered rule-based scoring algorithm featuring strict non-linear penalties for out-of-bracket experience and high notice periods. Includes rigorous honeypot detection to eliminate keyword stuffers, passive candidates, and purely IT services profiles. Runtime executes entirely on CPU well under the 5-minute threshold.
+  Our pipeline runs in two phases. Precompute (no time limit): all 100K candidate profiles
+  are parsed, a career_text_blob is built per candidate, and sentence-transformer embeddings
+  (all-MiniLM-L6-v2) are generated and stored as a FAISS index. Ranking (under 5 minutes,
+  CPU only, no network): the JD is embedded once, matrix-multiplied against precomputed
+  candidate vectors for instant semantic similarity scores, then combined with five explicit
+  signals — skill match (rapidfuzz fuzzy matching), title relevance gating (core ML = 1.0x,
+  adjacent SWE = 0.35x, decoupled roles = 0.0x), experience bracket scoring, quality signals
+  (assessments, GitHub, education), and platform availability (recency, notice period, open
+  to work). Cascading multiplicative gates penalise notice periods over 60 days (0.10x),
+  title-chaser velocity (0.60x), and pure IT-services careers (0.05x). A 99th-percentile
+  semantic exception preserves elite passive candidates. Honeypot detection ejects impossible
+  profiles via career-duration math and expert-skill-duration checks. Reasoning strings are
+  fully deterministic — built from score flags with zero LLM calls during ranking.
 
 # ============================================================================
 # Declarations
@@ -64,3 +94,6 @@ declarations:
   no_collusion: true
   honeypot_check_done: true
   reproduction_tested: true
+  ai_tool_usage_declared: true
+  sandbox_tested: true
+  csv_validated: true
